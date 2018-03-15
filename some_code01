@@ -1,0 +1,62 @@
+print("hello Python world!")
+
+message = "Hello Python World!"
+print(message)
+
+message = "Hello Python Crash Course World!"
+print(message)
+
+#----------------------------------------------
+
+name = "i am smart yu"
+print(name.title())
+print(name.upper())
+print(name.lower())
+
+first_name = "smart"
+last_name = "yu"
+full_name = first_name + " " + last_name
+
+print("Hello, " + full_name.title() + "!")
+
+message = ("Hello, " + full_name.title() + "! "+"Would you like to learn some python with me?")
+print(message)
+
+print("Languages:\nPython\nC\nJavaScript\n")
+
+print("Languages:\n\tPython\n\tC\n\tjavaScript")
+
+
+favorite_language =          '   this is the python learning\n\twe need do more     '
+print(favorite_language.rstrip())
+print(favorite_language.lstrip())
+print(favorite_language.strip())
+
+favorite_language  = favorite_language.rstrip()
+print(favorite_language)
+
+
+#----------------------------------------------
+
+
+message = "Albert Einstein once said,'A person who never made a mistake never \ntried anything new.'"
+print(message.upper())
+print(message.title())
+print(message)
+
+#------------------------------------
+
+age = 19
+message = "Happy " + str(age) + "rd birthday!"
+print(message)
+
+num = 19/7
+print(num)
+
+print(19/7)
+print(6**12)
+print(6*4)
+
+num = 12
+message = "This number " + " :" + str(num) + " is my favorite!"
+print(message.title())
